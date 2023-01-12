@@ -1,0 +1,25 @@
+.homepage-button {
+  background-color: pink;
+  border: none;
+  padding: 1rem;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.homepage-button:hover {
+  transform: scale(1.1);
+}
+
+.homepage-links {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
+
+.react-link {
+  text-decoration: none;
+  color: "green";
+  font-size: 2em;
+}
